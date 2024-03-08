@@ -8,6 +8,10 @@ import { CreateComponent } from './components/common/icons/create/create.compone
 import { ExploreIconComponent } from './components/common/icons/explore-icon/explore-icon.component';
 import { HomeIconComponent } from './components/common/icons/home-icon/home-icon.component';
 import { ExploreComponent } from './pages/explore/explore.component';
+import { UserInfoComponent } from './components/user-info/user-info.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
+import { PostListComponent } from './components/post-list/post-list.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { ExploreComponent } from './pages/explore/explore.component';
     CreateComponent,
     ExploreIconComponent,
     HomeIconComponent,
-    ExploreComponent
+    ExploreComponent,
+    UserInfoComponent,
+    TimelineComponent,
+    PostListComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
