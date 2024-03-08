@@ -1,1 +1,30 @@
-<p>sidebar works!</p>
+<nav
+  class="absolute bottom-0 left-0 right-0 md:static md:flex md:flex-col w-full h-min md:h-full flex-col lg+:w-[244px] p-0 md:pt-2 md:px-3 md:pb-5 cursor-pointer border-t md:border-r border-main-seporator"
+>
+  <div class="hidden md:block px-3 pt-6 pb-4 mb-5">
+    <h1 class="text-2xl font-bold hidden lg+:block">Pixagram</h1>
+  </div>
+  <div class="flex flex-row justify-around md:justify-normal md:flex-col w-full flex-grow h-full">
+    <button
+      (click)="changeSection('home')"
+      class="md:w-full flex py-3 md:my-1 px-3 lg+:py-2 rounded-md md:hover:bg-gray-500 transition-all"
+    >
+      <home-icon [isActive]="currentSection === 'home'" />
+      <p class="pl-4 hidden lg+:block">Home</p>
+    </button>
+    <button
+      (click)="changeSection('create')"
+      class="md:w-full flex md:my-1 px-3 py-3 lg+:py-2 rounded-md md:hover:bg-gray-500 transition-all"
+    >
+      <create [isActive]="currentSection === 'create'" />
+      <p class="pl-4 hidden lg+:block">Create</p>
+    </button>
+    <button
+      (click)="changeSection('explore')"
+      class="md:w-full flex md:my-1 px-3 py-3 lg+:py-2 rounded-md md:hover:bg-gray-500 transition-all"
+    >
+      <app-explore-icon [isActive]="currentSection === 'explore'" />
+      <p class="pl-4 hidden lg+:block">Explore</p>
+    </button>
+  </div>
+</nav>
