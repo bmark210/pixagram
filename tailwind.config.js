@@ -10,7 +10,8 @@ module.exports = {
         "main-seporator": "rgb(38, 38, 38)",
       },
       screens: {
-        "lg+": "1263px"
+        "lg+": "1263px",
+        "lg-": "1160px"
       }
 
     },
