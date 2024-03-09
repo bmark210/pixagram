@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-seporator": "rgb(38, 38, 38)",
+        "dark-seporator": "rgb(38, 38, 38)",
+        "light-seporator": "rgb(219, 219, 219)",
       },
       screens: {
         "lg+": "1263px",
