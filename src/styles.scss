@@ -1,1 +1,8 @@
 @import 'style.css';
+
+body {
+  touch-action: pan-x pan-y;
+}
+body {
+  touch-action: none;
+}
