@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TimelineComponent {
   posts: any[] = [
-    { title: 'Post 1', content: 'Lorem ipsum dolor sit amet', image: 'https://scontent.cdninstagram.com/v/t39.30808-6/430848778_18424475371057803_4406035504656717473_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=iX-W8TXBMAAAX_IA5in&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMxOTE1ODAwODQxODk2NDQzNw%3D%3D.2-ccb7-5&oh=00_AfAEi2DSRZadLXeBuRiBeO4K0m9F1rW6R3EOx1O6tZ8hMg&oe=65F13CCC&_nc_sid=10d13b' },
+    { title: 'Post 1', content: 'Lorem ipsum dolor sit amet', image: 'https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,q_auto,w_720/wml2sqgr72dsndwigtmu.jpg' },
     { title: 'Post 2', content: 'Consectetur adipiscing elit' },
     { title: 'Post 3', content: 'Sed do eiusmod tempor incididunt' },
     { title: 'Post 4', content: 'Ut labore et dolore magna aliqua' },
