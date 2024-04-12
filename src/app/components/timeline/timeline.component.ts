@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
+import { PostListComponent } from '../post-list/post-list.component';
 
 @Component({
   selector: 'app-timeline',
+  standalone: true,
+  imports: [PostListComponent],
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.scss'],
 })

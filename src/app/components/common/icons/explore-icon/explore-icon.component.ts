@@ -1,7 +1,10 @@
+import { NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-explore-icon',
+  standalone: true,
+  imports: [NgIf],
   template: `
     <ng-container *ngIf="isActive; else isNotActive">
       <svg
