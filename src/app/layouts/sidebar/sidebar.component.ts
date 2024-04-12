@@ -1,10 +1,9 @@
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { HomeIconComponent } from '../../components/common/icons/home-icon/home-icon.component';
+import { CreateComponent } from '../../components/common/icons/create/create.component';
+import { ExploreIconComponent } from '../../components/common/icons/explore-icon/explore-icon.component';
 import { Component } from '@angular/core';
-import { HomeIconComponent } from 'src/app/components/common/icons/home-icon/home-icon.component';
-import { CreateComponent } from 'src/app/components/common/icons/create/create.component';
-import { ExploreComponent } from 'src/app/pages/explore/explore.component';
-import { ExploreIconComponent } from 'src/app/components/common/icons/explore-icon/explore-icon.component';
 
 @Component({
   selector: 'app-sidebar',

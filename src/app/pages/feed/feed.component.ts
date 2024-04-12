@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TimelineComponent } from 'src/app/components/timeline/timeline.component';
-import { UserInfoComponent } from 'src/app/components/user-info/user-info.component';
+import { UserInfoComponent } from '../../components/user-info/user-info.component';
+import { TimelineComponent } from '../../components/timeline/timeline.component';
 
 @Component({
   selector: 'app-feed',
